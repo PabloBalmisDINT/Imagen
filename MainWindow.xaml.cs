@@ -27,18 +27,34 @@ namespace Imagen
         // Metodos para cambiar la opacidad
         private void AltaRadioButtonChecked(object sender, RoutedEventArgs e)
         {
-            ImagenImage.Opacity = 100;
+            ImagenImage.Opacity = 1;
         }
 
         private void MediaRadioButtonChecked(object sender, RoutedEventArgs e)
         {
-            ImagenImage.Opacity = 60;
+            ImagenImage.Opacity = 0.6;
         }
         private void BajaRadioButtonChecked(object sender, RoutedEventArgs e)
         {
-            ImagenImage.Opacity = 30;
+            ImagenImage.Opacity = 0.3;
         }
 
         // Metodos para el stretch
+        private void RellenoRadioButtonChecked(object sender, RoutedEventArgs e)
+        {
+            ImagenImage.Stretch = Stretch.Fill;
+        }
+        private void RellenoUniformeRadioButtonChecked(object sender, RoutedEventArgs e)
+        {
+            ImagenImage.Stretch = Stretch.UniformToFill;
+        }
+        private void UniformeRadioButtonChecked(object sender, RoutedEventArgs e)
+        {
+            ImagenImage.Stretch = Stretch.Uniform;
+        }
+        private void NoneRadioButtonChecked(object sender, RoutedEventArgs e)
+        {
+            ImagenImage.Stretch = Stretch.None;
+        }
     }
 }

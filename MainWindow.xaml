@@ -7,16 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Image x:Name="ImagenImage"  HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="296"/>
+        <Image x:Name="ImagenImage"  HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="296" Source="negre.png" Stretch="Fill"/>
         <TextBlock HorizontalAlignment="Left" Margin="447,65,0,0" TextWrapping="Wrap" Text="Opacidad" VerticalAlignment="Top" FontWeight="Bold" FontSize="28"/>
         <RadioButton Content="Alta" HorizontalAlignment="Left" Margin="464,127,0,0" VerticalAlignment="Top" GroupName="opacidad" IsChecked="True" Checked="AltaRadioButtonChecked"/>
-        <RadioButton Content="Media" HorizontalAlignment="Left" Margin="464,147,0,0" VerticalAlignment="Top" GroupName="opacidad" Checked="RadioButton_Checked"/>
-        <RadioButton Content="Baja" HorizontalAlignment="Left" Margin="464,167,0,0" VerticalAlignment="Top" GroupName="opacidad"/>
+        <RadioButton Content="Media" HorizontalAlignment="Left" Margin="464,147,0,0" VerticalAlignment="Top" GroupName="opacidad" Checked="MediaRadioButtonChecked"/>
+        <RadioButton Content="Baja" HorizontalAlignment="Left" Margin="464,167,0,0" VerticalAlignment="Top" GroupName="opacidad" Checked="BajaRadioButtonChecked"/>
         <TextBlock HorizontalAlignment="Left" Margin="447,211,0,0" TextWrapping="Wrap" Text="Ajuste" VerticalAlignment="Top" FontWeight="Bold" FontSize="28"/>
-        <RadioButton Content="Relleno(Fill)" HorizontalAlignment="Left" Margin="464,256,0,0" VerticalAlignment="Top" GroupName="ajuste" IsChecked="True"/>
-        <RadioButton Content="Uniforme(Uniform)" HorizontalAlignment="Left" Margin="464,276,0,0" VerticalAlignment="Top" GroupName="ajuste"/>
-        <RadioButton Content="RellenoUniforme(UniformToFill)" HorizontalAlignment="Left" Margin="464,296,0,0" VerticalAlignment="Top" GroupName="ajuste"/>
-        <RadioButton Content="Sin ajuste (none)" HorizontalAlignment="Left" Margin="464,316,0,0" VerticalAlignment="Top" GroupName="ajuste"/>
+        <RadioButton Content="Relleno(Fill)" HorizontalAlignment="Left" Margin="464,256,0,0" VerticalAlignment="Top" GroupName="ajuste" IsChecked="True" Checked="RellenoRadioButtonChecked"/>
+        <RadioButton Content="Uniforme(Uniform)" HorizontalAlignment="Left" Margin="464,276,0,0" VerticalAlignment="Top" GroupName="ajuste" Checked="UniformeRadioButtonChecked"/>
+        <RadioButton Content="RellenoUniforme(UniformToFill)" HorizontalAlignment="Left" Margin="464,296,0,0" VerticalAlignment="Top" GroupName="ajuste" Checked="RellenoUniformeRadioButtonChecked"/>
+        <RadioButton Content="Sin ajuste (none)" HorizontalAlignment="Left" Margin="464,316,0,0" VerticalAlignment="Top" GroupName="ajuste" Checked="NoneRadioButtonChecked"/>
 
     </Grid>
 </Window>
