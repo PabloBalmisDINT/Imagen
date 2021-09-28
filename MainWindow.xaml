@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Imagen"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Editor de imagenes" Height="450" Width="800" Icon="32.ico">
     <Grid>
         <Image x:Name="ImagenImage"  HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="296" Source="negre.png" Stretch="Fill"/>
         <TextBlock HorizontalAlignment="Left" Margin="447,65,0,0" TextWrapping="Wrap" Text="Opacidad" VerticalAlignment="Top" FontWeight="Bold" FontSize="28"/>
